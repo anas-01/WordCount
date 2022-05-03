@@ -4,6 +4,7 @@ import java.io.File;
 public class WordCount {
     public static void main (String [] args) throws Exception{
 
+        // Insert your file name here
         File file = new File("randomfile.txt");
         Scanner scanner = new Scanner(file);
 
